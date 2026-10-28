@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Película no encontrada</title>
+  <base href="/">
+  <link rel="stylesheet" href="app.css" class="css"></head>
+<body>
+  <header class="top">
+    <a href="/" class="logo-small">
+      <span class="b">G</span><span class="r">o</span><span class="y">o</span><span class="b">g</span><span class="g">l</span><span class="r">e</span>
+    </a>
+  </header>
+
+  <main class="results">
+    <h2 class="not-found">PELÍCULA '<%= query.toUpperCase() %>' NO ENCONTRADA</h2>
+    <p>No hay resultados para tu búsqueda. <a href="/">Volver a intentarlo</a></p>
+  </main>
+</body>
+</html>
